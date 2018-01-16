@@ -1,0 +1,130 @@
+body {
+  background: #2E334A;
+}
+
+.game{
+  position: absolute;
+  left: 20%;
+  width: 27em;
+  height: 27em;
+  border: solid black 1em;
+  border-radius: 100%;
+  top: 2em;
+  background: black;
+}
+
+.gap {
+  background: #d3d3d3;
+  position: absolute;
+  height: 45%;
+  width: 45%;
+  border-radius: 100%;
+  top: 27%;
+  left: 27%;
+  border: solid gray 3px;
+  border-top-color: #ff0000;
+  border-right-color: #0000aa;
+  border-bottom-color: #aaaa00;
+  border-left-color: #00aa00;
+  -ms-transform: rotate(45deg); /* IE */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+
+.hud {
+  position: absolute;
+  left: 38%;
+  top: 8em;
+  font-family: Verdana;
+}
+
+.settings {
+  position: absolute;
+  display: inline;
+  background: #9CAAF8;
+  border: solid blue 2px;
+  border-radius: 6px;
+  left: -34%;
+  top: 5em;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.strict {
+  left: 16%;
+}
+
+.strictMode {
+  background: red;
+  border-color: #990000;
+}
+
+.reset {
+  left: 70%;
+}
+
+.score {
+  width: 1.1em;
+  height: 1em;
+  font-size: 48px;
+  font-family: Arial;
+  padding: 2px;
+  position: absolute;
+  top: 2.3em;
+  left: 16%;
+  background: black;
+  color: green;
+  border: solid 4px #aaaaaa;
+  border-bottom-color: #888888;
+  border-right-color: #888888;
+  text-align: center;
+}
+
+button {
+  width: 50%;
+  height: 50%;
+  outline: none;
+}
+
+.grn {
+  background: green;
+  border-top-left-radius: 100%;
+  border-left-color: #00ff00;
+  border-right-color: #00aa00;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.red {
+  background: #cc0000;
+  border-left-color: #aa0000;
+  border-right-color: #ff0000;
+  border-top-right-radius: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.ylw {
+ background: #cccc00;
+ border-left-color: #ffff00;
+ border-top-color: #aaaa00;
+ border-bottom-left-radius: 100%;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+}
+
+.blu {
+  background: blue;
+  border-left-color: #0000ff;
+  border-right-color: #0000aa;
+  border-bottom-right-radius: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
